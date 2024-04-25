@@ -1,0 +1,49 @@
+// NAV STUFF
+
+body {
+    display: grid;
+    grid-template-columns: 250px auto;
+}
+
+#navWrapper {
+    grid-row: 1 / span 3;
+    position: relative;
+}
+
+nav ul {
+    width: 250px; //this makes it so that the ul takes up the full width of the nav wrapper
+    flex-direction: column;
+    height: 100vh; // this makes the nav items spread throughout the whole desktop browser height
+    justify-content: center;
+
+    li {flex: none;} // this makes it so the li are only taking up default amount of space, not stretching to fit the whole screen height
+    position: fixed;
+}
+
+nav {
+    a {
+        width: 100%;
+    } // end a
+} // end nav
+
+
+// MAIN STUFF
+section {
+    padding: $gutter*3;
+    // p {
+    //     font-size: 1.2rem;
+    // }
+
+}
+
+#work, #education {
+    height: 100vh;
+}
+
+#work, #education {
+    .cards {
+        .card {
+        flex-basis: calc(33.33% - (($gutter *2)/3));
+        } // end 
+    }
+}
