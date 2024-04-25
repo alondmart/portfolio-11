@@ -22,7 +22,7 @@ nav {
 // MAIN STUFF
 
 section {
-    height: 100%vh;
+    height: 100vh;
     background-color: $background;
     padding: $gutter;
     h2 { background: 50px;}
@@ -53,7 +53,7 @@ section {
 
 
 #work, #education {
-    height: 100%vh;
+    height: 100vh;
     .cards {
     flex-direction: row;
     display: flex;

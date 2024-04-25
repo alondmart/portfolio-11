@@ -517,7 +517,7 @@ footer p {
     display: block;
   }
   section {
-    height: 100% vh;
+    height: 100vh;
     background-color: #f7f3ea;
     padding: 16px;
     grid-template-areas: "title ." "details  photo";
@@ -543,7 +543,7 @@ footer p {
     align-self: end;
   }
   #work, #education {
-    height: 100% vh;
+    height: 100vh;
   }
   #work .cards, #education .cards {
     flex-direction: row;
